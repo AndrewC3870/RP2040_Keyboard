@@ -1,5 +1,5 @@
 # RP2040_Keyboard
-**Custom Raspberry Pi RP2040 mini keyboard for small portable projects!**
+**Custom RP2040 mini keyboard for small portable projects!**
 <img src="images/Assembled_3D.png"/>
 
 ## Features
@@ -7,15 +7,18 @@
 * **Layout:** 5x13 Ortholinear
 * **Special Features:** Integrated Left D-pad and Right Action buttons directly in the QMK matrix.
 * **Firmware:** QMK
-
+---
 ## Keymap Layout
 The default keymap includes a standard typing base layer, an Fn layer with navigation and F-keys, and dedicated hardware gamepad keys mapped to the outer columns (this was made using simple buttons footprint for custom soldering, also can be replaced with functional buttons).
 
 * **Gamepad Left:** `Up`, `Down`, `Left`, `Right`
 * **Gamepad Right:** `Y`, `A`, `X`, `B`
 * **Bumpers:** `Page Up` (L1), `Page Down` (R1)
+
 Also the test pads I added can be used to solder analog devices such as joystick or analog trigger.
 If decided to add this features, then you'll need to add this changes into code and configure the keyboard.
+
+---
 ## Flashing Instructions
 **The code is for my specific build, but it can be easily change to satisfy your requirements**
 
