@@ -14,8 +14,10 @@ The default keymap includes a standard typing base layer, an Fn layer with navig
 * **Gamepad Left:** `Up`, `Down`, `Left`, `Right`
 * **Gamepad Right:** `Y`, `A`, `X`, `B`
 * **Bumpers:** `Page Up` (L1), `Page Down` (R1)
-
+Also the test pads I added can be used to solder analog devices such as joystick or analog trigger.
+If decided to add this features, then you'll need to add this changes into code and configure the keyboard.
 ## Flashing Instructions
+**The code is for my specific build, but it can be easily change to satisfy your requirements**
 
 To compile and flash this firmware, you will need the [QMK CLI](https://docs.qmk.fm/#/newbs_getting_started) installed.
 
