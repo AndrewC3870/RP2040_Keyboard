@@ -20,7 +20,7 @@ The default keymap includes a standard typing base layer, an Fn layer with navig
 To compile and flash this firmware, you will need the [QMK CLI](https://docs.qmk.fm/#/newbs_getting_started) installed.
 
 1. Clone the `qmk_firmware` repository.
-2. Clone or download this repository and place the `rp2040_keyboard/code/` folder into `qmk_firmware/keyboards/`.
+2. Clone or download this repository and place the `rp2040_keyboard` folder from `setup` into `qmk_firmware/keyboards/`.
 3. Put your keyboard into bootloader mode.
 4. Run the following command from the root of your `qmk_firmware` directory:
 
